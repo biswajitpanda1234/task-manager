@@ -2,10 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {create} from "../../action/index"
 import ReactDOM from 'react-dom';
-
 import CancelOutlinedIcon from '@mui/icons-material/CancelOutlined';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-
 export default function CreateTask({ setCreateTask }) {
     
     const dispatch = useDispatch()
@@ -101,7 +98,6 @@ export default function CreateTask({ setCreateTask }) {
                                     <option value="P1">P1</option>
                                     <option value="P2">P2</option>
                                 </select>
-                                <ArrowDropDownIcon style={{ position: "absolute", right: "-.3rem", top: "-.1rem", fontSize: "2rem", color: "grey" }} />
                             </div>
                         </div>
                         <div>

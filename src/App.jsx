@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux';
 import PersonIcon from '@mui/icons-material/Person';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+
 import Card from './cards/Card';
 import CreateTask from './cards/Modal/CreateTask';
-import EditTask from './cards/Modal/EditTask';
-import DeleteTask from './cards/Modal/DeleteTask';
+
 
 
 
@@ -105,7 +104,7 @@ export default function App() {
                 <option value="P1">P1</option>
                 <option value="P2">P2</option>
               </select>
-              <ArrowDropDownIcon style={{ position: "absolute", right: "-.5rem", top: "-.2rem", fontSize: "2rem", color: "grey" }} />
+              
             </div>
         
             <input type="date" name='startDate' className='mx-2 my-2' onChange={filterChange}/>
@@ -129,7 +128,6 @@ export default function App() {
               <option value="startDate">Start Date</option>
               <option value="endDate">End Date</option>
             </select>
-            <ArrowDropDownIcon style={{ position: "relative", right: "23%", top: "-8%", fontSize: "2rem", color: "grey" }} />
           </div>
 
         </div>

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import CancelOutlinedIcon from '@mui/icons-material/CancelOutlined';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { useDispatch, useSelector } from 'react-redux';
 import {update} from "../../action/index"
 export default function EditTask({ setEditDelete, value }) {
@@ -80,7 +79,7 @@ export default function EditTask({ setEditDelete, value }) {
                                     <option value="P1">P1</option>
                                     <option value="P2">P2</option>
                                 </select>
-                                <ArrowDropDownIcon style={{ position: "absolute", right: "-.5rem", top: "-.2rem", fontSize: "2rem", color: "grey" }} />
+                                
                             </div>
                         </div>
                         <div className='flex'>
@@ -94,7 +93,7 @@ export default function EditTask({ setEditDelete, value }) {
                                     <option value="deployed">Deployed</option>
                                     <option value="deffered">Deffered</option>
                                 </select>
-                                <ArrowDropDownIcon style={{ position: "absolute", right: "-.5rem", top: "-.2rem", fontSize: "2rem", color: "grey" }} />
+                        
                             </div>
                         </div>
 
