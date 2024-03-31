@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-
-
 import EditDelete from './Modal/EditDelete';
 import { data } from 'autoprefixer';
 export default function Task({val, state}) {

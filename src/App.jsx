@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux';
 import PersonIcon from '@mui/icons-material/Person';
-
 import Card from './cards/Card';
 import CreateTask from './cards/Modal/CreateTask';
-
-
-
 
 export default function App() {
   const myData = useSelector((state) => state.changeStore)
